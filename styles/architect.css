@@ -17,6 +17,11 @@
 .text-light-gray{
     color: #727272;
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
 /* Header Styles */
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -39,11 +44,6 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #424242;
-}
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
 }
 /* banner styles */
 .banner-content{
@@ -71,7 +71,6 @@ main{
 .teams-container{
     display: flex;
     align-items: center;
-    ;
 }
 .teams-img-container{
     display: grid;
