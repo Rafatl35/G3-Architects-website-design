@@ -5,7 +5,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 .btn-primary{
-    
+    border-radius: 8px;
+    background: #FF900E; 
+    color: #FFF;
+    font-size: 1.25rem; 
+    font-weight: 600;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
 }
 /* Header Styles */
 header{
@@ -48,4 +55,32 @@ nav li a{
 }
 .banner-description{
     color: #727272;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Responsive media query */
+/* Mobile devices */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 80%;
+    }
+}
+
+/* Tablet or medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
